@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="bg-slate-200 h-screen flex justify-center flex-col">
+    <div className="bg-white h-screen flex justify-center flex-col">
       <div className="flex justify-center">
         <div className="max-w-lg">
           <div className="text-3xl font-bold">
@@ -13,7 +13,7 @@ const Banner = () => {
             Anirudh Ehmaad
           </div>
           <div className="max-w-md text-sm font-light text-slate-700">
-            SDE | Austin
+            SDE, HiFiveCommunity | Austin, TX
           </div>
         </div>
       </div>

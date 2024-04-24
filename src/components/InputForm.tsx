@@ -19,7 +19,8 @@ const InputForm = () => {
     console.log("Sending content: ", content, "to the Emails: ", emails);
     try {
       const response = await axios.post("/api/mail", {
-        body: JSON.stringify({ content, emails }),
+        content,
+        emails,
       });
     } catch (error) {
       console.log("Error sending the mails", error);
